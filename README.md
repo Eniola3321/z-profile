@@ -40,8 +40,8 @@ ___________________________________________________
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/express-cat-facts.git
-cd express-cat-facts
+git clone https://github.com/Eniola3321/Dynamic-Profile
+
 
 ## Environment Variable(.env)
 PORT=3000
