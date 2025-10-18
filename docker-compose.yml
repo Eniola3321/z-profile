@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  app:
+    image: node:18-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - MY_EMAIL=your-email@example.com
+      - MY_NAME=Your Name
+      - MY_STACK=Node.js
+      - PORT=3000
+    command: sh -c "npm install && npm start"
